@@ -69,3 +69,25 @@
   border-radius: 40px;
   background-color: #ffffff;
 }
+.content-image {
+  max-width: 910px;
+  width: 100%;
+  background-image: url('img/section-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width:1440px) {
+
+  .page {
+    padding: 105px 72px;
+  }
+  .content_titte {
+  font-size: 26px;
+  line-height: 41.6px;
+  }
+  .content-image{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
