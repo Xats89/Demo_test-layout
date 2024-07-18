@@ -53,13 +53,12 @@ formButtons.forEach((el) =>
   })
 );
 
-
-modal.addEventListener("click", closeOnBackDropClick)
+modal.addEventListener("click", closeOnBackDropClick);
 
 function closeOnBackDropClick({ currentTarget, target }) {
-  const modal = currentTarget
-  const isClickedOnBackDrop = target === modal
+  const modal = currentTarget;
+  const isClickedOnBackDrop = target === modal;
   if (isClickedOnBackDrop) {
-    modal.close()
+    modal.close();
   }
 }
